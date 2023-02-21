@@ -1,9 +1,42 @@
 body {
-    background-image: url('image/banner.jpg');
+    background-image: url('image/web1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
   }
+ 
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    position: relative;
+    top: 50px;
+  }
+  
+  img {
+    border-radius: 50%;
+    max-width: 50%;
+    max-height: 50%;
+    border:5px solid BLUE;
+    transform: translateY(-50px);
+  }
+
+  .my-button {
+    display: inline-block;
+    background-color:blueviolet;
+    color:RED;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 5px solid BLUE;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
   .blinking-text {
     animation: blink 1s infinite;
   }
@@ -15,24 +48,17 @@ body {
     25% {
       opacity: 0;
     }
-    75% {
+    50% {
       opacity: 1;
     }
   }
   
-  .my-button {
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  }
   
-  .my-button:hover {
-    background-color: #3e8e41;
-  }
+
+ 
   
+
+
+
+
   

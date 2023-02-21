@@ -1,0 +1,38 @@
+body {
+    background-image: url('image/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .blinking-text {
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 0;
+    }
+    75% {
+      opacity: 1;
+    }
+  }
+  
+  .my-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .my-button:hover {
+    background-color: #3e8e41;
+  }
+  
+  

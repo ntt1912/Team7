@@ -1,0 +1,32 @@
+html
+{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+}
+
+.okay-this-is-crazy
+{
+    background : lightblue;
+}
+
+#My-name
+{
+    color : black;
+}
+
+.title
+{
+    color :red;
+}
+#working-at-ptit:hover
+{
+    color:lightblue;
+    text-decoration:underline;
+}
+
+.bold-text
+{
+    font-weight: bold;
+    color : black;
+}

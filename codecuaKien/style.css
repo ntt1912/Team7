@@ -1,0 +1,32 @@
+#header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  #header h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  #content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+  }
+  #content h2 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  #content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  #content ul {
+    list-style: none;
+    padding: 0;
+  }
+  #content ul li {
+    margin-bottom: 10px;
+  }
